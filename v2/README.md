@@ -12,12 +12,10 @@ A terminal based audio player
 
 ## Installation
 
-    git clone https://github.com/gewalker/goPlayer.git
-    cd goPlayer
-    go install
+    go get github.com/gewalker/goPlayer
 
 This will install goPlayer to $GOPATH/bin folder.
-I realize this build method is crap. It's all going to be refactored -- _Gary_
+Also you can download binaries from 'Releases' tab.
 
 ## Usage
 
