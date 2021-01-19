@@ -12,7 +12,7 @@ A terminal based audio player
 
 ## Installation
 
-    go get github.com/And678/goPlayer
+    go get github.com/gewalker/goPlayer
 
 This will install goPlayer to $GOPATH/bin folder.
 Also you can download binaries from 'Releases' tab.
@@ -31,7 +31,7 @@ If used without path parameter, goPlayer will assume default music folder: `~/Mu
 
 ## Used libraries
 
-* [termui](https://github.com/gizak/termui/)
+* [termui](https://github.com/gizak/termui/v2)
 * [beep](https://github.com/faiface/beep)
 * [tag](https://github.com/dhowden/tag/)
 
