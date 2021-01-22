@@ -1,0 +1,14 @@
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: cimg/go:1.14
+    working_directory: /goPlayer
+    steps:
+      - checkout
+    run:
+      - go get -v
+      - go build
+
+    name: goPlayer
+    
